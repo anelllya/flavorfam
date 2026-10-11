@@ -1,9 +1,16 @@
 name: Eval gate
 
+# Runs the gate on every push and pull request; on main, a passing gate deploys the site to
+# GitHub Pages. Visual diffs stay local (macOS baselines): run `npm run eval` before pushing.
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -24,6 +31,7 @@ jobs:
       - run: npm run eval
         env:
           CI: true
+          EVAL_SKIP_VISUAL: '1'
       - uses: actions/upload-artifact@v4
         if: always()
         with:

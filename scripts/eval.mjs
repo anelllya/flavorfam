@@ -2,6 +2,10 @@
 import { spawnSync } from 'node:child_process';
 import { writeFileSync, mkdirSync } from 'node:fs';
 
+// EVAL_SKIP_VISUAL=1 (used in CI): screenshot baselines are made on macOS and fonts render
+// differently on Linux, so CI runs every browser test except the visual diffs, and says so.
+const skipVisual = process.env.EVAL_SKIP_VISUAL === '1';
+
 const checks = [
   ['tokens', 'node scripts/build-tokens.mjs'],
   ['typecheck', 'npx tsc -b'],
@@ -9,7 +13,9 @@ const checks = [
   ['stylelint guardrails', 'npx stylelint "src/**/*.css"'],
   ['unit', 'npx vitest run'],
   ['build', 'npx vite build'],
-  ['axe + visual + behaviour', 'npx playwright test'],
+  skipVisual
+    ? ['axe + behaviour', 'npx playwright test --grep-invert visual']
+    : ['axe + visual + behaviour', 'npx playwright test'],
 ];
 
 const results = [];

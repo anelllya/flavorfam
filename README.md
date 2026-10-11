@@ -2,6 +2,10 @@
 
 **A design system built for AI to generate against, proven on a real meal planner.**
 
+[![Eval gate](https://github.com/anelllya/flavorfam/actions/workflows/gate.yml/badge.svg)](https://github.com/anelllya/flavorfam/actions/workflows/gate.yml)
+
+Live: https://anelllya.github.io/flavorfam/
+
 Humans own the taste: tokens, components, rules. An agent assembles screens from them. One command decides what ships:
 
 ```bash
@@ -21,7 +25,8 @@ npm run eval
 | `tests/` | axe + visual regression on every route in both themes, plus behaviour tests |
 | `content/` | The `/thinking` page (`/status` renders `evals/runs.md`) |
 | `src/data/` | 24 recipes (13 of them my mum's) and a canonical ingredient list |
-| `docs/` | Token map and component inventory (what still needs to go back into Figma), and a CI workflow ready to enable (`docs/ci/gate.yml`) |
+| `docs/` | Token map and component inventory (what still needs to go back into Figma), and how the system was built |
+| `.github/workflows/gate.yml` | Runs the gate on every push and deploys the site to GitHub Pages when it passes (visual diffs run locally) |
 
 ## The gate
 
