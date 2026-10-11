@@ -41,6 +41,8 @@ export interface Recipe {
   source?: string;
   /** Seed recipe written by an agent, waiting for a human to replace it. */
   draft?: boolean;
+  /** Built-in photo, a file in public/recipes/. A photo the user adds in their browser takes priority. */
+  image?: string;
   /** When the user last saved it (ms). Seed recipes don't have one until edited. */
   updatedAt?: number;
 }

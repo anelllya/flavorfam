@@ -80,7 +80,8 @@
   ],
   "originalTitle": "Шоколадов сладкиш",
   "notes": "Original measures everything with the yoghurt pot. For the smallest tin, use small pots and only half a teaspoon of soda.",
-  "source": "recepti.gotvach.bg/r-58545"
+  "source": "recepti.gotvach.bg/r-58545",
+  "image": "chocolate-yoghurt-cake.webp"
  },
  {
   "id": "ladyfinger-cake",
@@ -146,7 +147,8 @@
    "Whip the egg whites to stiff peaks, spread over the top and sides in flames, and bake at 100 °C for 5 to 10 minutes just to set them."
   ],
   "originalTitle": "Бишкотена торта",
-  "notes": "Improvise between layers: dried fruit, thin banana or kiwi slices."
+  "notes": "Improvise between layers: dried fruit, thin banana or kiwi slices.",
+  "image": "ladyfinger-cake.webp"
  },
  {
   "id": "pitka",
@@ -220,7 +222,8 @@
    "Bake at 220 °C for 45 to 50 minutes."
   ],
   "originalTitle": "Питката",
-  "notes": "The original lists no yeast, but the dough rises. Check with mum before trusting this one."
+  "notes": "The original lists no yeast, but the dough rises. Check with mum before trusting this one.",
+  "image": "pitka.webp"
  },
  {
   "id": "chocolate-walnut-pie",
@@ -282,7 +285,8 @@
    "Once cool, pour over chocolate and sprinkle the remaining walnuts."
   ],
   "originalTitle": "Шоколадово-орехов пай",
-  "notes": "The wine appears in the list but not in the method. Mum's secret, presumably."
+  "notes": "The wine appears in the list but not in the method. Mum's secret, presumably.",
+  "image": "chocolate-walnut-pie.webp"
  },
  {
   "id": "mekitsi",
@@ -331,7 +335,8 @@
    "With oiled hands, stretch pieces of dough one by one on foil.",
    "Fry in hot oil until golden."
   ],
-  "originalTitle": "Содени мекички"
+  "originalTitle": "Содени мекички",
+  "image": "mekitsi.webp"
  },
  {
   "id": "kozunak",
@@ -401,7 +406,8 @@
    "Too much dough? Make small rolls, or a roll with raisins, walnuts, sugar, cinnamon and thick jam."
   ],
   "originalTitle": "Козунак",
-  "notes": "This is the small batch. The doc also has a double batch (4 eggs, 1.3 kg flour). \"Improvise, you can do it.\""
+  "notes": "This is the small batch. The doc also has a double batch (4 eggs, 1.3 kg flour). \"Improvise, you can do it.\"",
+  "image": "kozunak.webp"
  },
  {
   "id": "pogacha-eva",
@@ -476,7 +482,8 @@
    "Arrange the ends in the centre of a 28 cm tin and the triangles around them. Rise 30 to 40 minutes, brush with yolk and milk, sprinkle seeds.",
    "Bake in a preheated oven for 25 to 30 minutes, lowering to 160 °C if needed. Brush with butter and cover with a cloth."
   ],
-  "originalTitle": "Празнична погача Ева"
+  "originalTitle": "Празнична погача Ева",
+  "image": "pogacha-eva.webp"
  },
  {
   "id": "waffles",
@@ -536,7 +543,8 @@
    "Combine until smooth.",
    "Pour into a preheated waffle iron and cook 1 to 2 minutes."
   ],
-  "originalTitle": "Гофрети"
+  "originalTitle": "Гофрети",
+  "image": "waffles.webp"
  },
  {
   "id": "boston-cream-doughnuts",
@@ -673,11 +681,13 @@
    "Roll out, cut rounds, rise again, then fry until golden. Cool.",
    "Fill with pastry cream and dip in the chocolate glaze."
   ],
-  "source": "simpleandhomemade.com/boston-cream-doughnuts"
+  "source": "simpleandhomemade.com/boston-cream-doughnuts",
+  "image": "boston-cream-doughnuts.webp"
  },
  {
   "id": "three-chocolate-cake",
   "title": "Three-chocolate cake",
+  "originalTitle": "Торта три шоколада",
   "collection": "mama",
   "category": "dessert",
   "servings": 12,
@@ -686,14 +696,12 @@
    {
     "ingredientId": "biscuits",
     "qty": 200,
-    "unit": "g",
-    "note": "1 pack"
+    "unit": "g"
    },
    {
     "ingredientId": "butter",
     "qty": 60,
-    "unit": "g",
-    "note": "base"
+    "unit": "g"
    },
    {
     "ingredientId": "dark-chocolate",
@@ -728,8 +736,7 @@
    {
     "ingredientId": "junket-powder",
     "qty": 3,
-    "unit": "pcs",
-    "note": "sachets"
+    "unit": "pcs"
    }
   ],
   "steps": [
@@ -739,8 +746,7 @@
    "Repeat with the milk chocolate, then the white chocolate, letting each layer set so they don't mix.",
    "Chill overnight. Decorate simply, with cinnamon or sweets."
   ],
-  "originalTitle": "Торта три шоколада",
-  "notes": "The doc's method is a machine translation from Spanish (tarta de tres chocolates). Rewritten here so it can actually be followed."
+  "image": "three-chocolate-cake.webp"
  },
  {
   "id": "pumpkin-waffles",
@@ -832,11 +838,13 @@
    "Whisk egg, sugar, pumpkin, milk and oil. Add the dry ingredients and whisk until smooth.",
    "Cook the waffles and let them cool in a single layer.",
    "Spread filling on half, top with the rest, cut into wedges."
-  ]
+  ],
+  "image": "pumpkin-waffles.webp"
  },
  {
   "id": "ginger-elixir",
   "title": "Ginger breakfast elixir",
+  "originalTitle": "Еликсирът за закуска на Есил Дюран",
   "collection": "mama",
   "category": "drink",
   "servings": 20,
@@ -845,14 +853,12 @@
    {
     "ingredientId": "ginger",
     "qty": 120,
-    "unit": "g",
-    "note": "grated"
+    "unit": "g"
    },
    {
     "ingredientId": "lemon",
     "qty": 2,
-    "unit": "pcs",
-    "note": "seeds removed"
+    "unit": "pcs"
    },
    {
     "ingredientId": "honey",
@@ -865,11 +871,12 @@
    "Blend the lemons with the ginger.",
    "Stir in the honey. Keep in a jar in the fridge; take a spoonful in the morning."
   ],
-  "originalTitle": "Еликсирът за закуска на Есил Дюран"
+  "image": "ginger-elixir.webp"
  },
  {
   "id": "macedonian-banitsa",
   "title": "Macedonian banitsa",
+  "originalTitle": "Македонска баница",
   "collection": "mama",
   "category": "baking",
   "servings": 8,
@@ -878,26 +885,22 @@
    {
     "ingredientId": "water",
     "qty": 200,
-    "unit": "ml",
-    "note": "lukewarm"
+    "unit": "ml"
    },
    {
     "ingredientId": "egg",
     "qty": 1,
-    "unit": "pcs",
-    "note": "dough"
+    "unit": "pcs"
    },
    {
     "ingredientId": "sunflower-oil",
     "qty": 15,
-    "unit": "ml",
-    "note": "1 tbsp"
+    "unit": "ml"
    },
    {
     "ingredientId": "vinegar",
     "qty": 1,
-    "unit": "tbsp",
-    "note": "wine vinegar"
+    "unit": "tbsp"
    },
    {
     "ingredientId": "salt",
@@ -912,26 +915,22 @@
    {
     "ingredientId": "butter",
     "qty": 200,
-    "unit": "g",
-    "note": "soft"
+    "unit": "g"
    },
    {
     "ingredientId": "sirene",
     "qty": 400,
-    "unit": "g",
-    "note": "crumbled"
+    "unit": "g"
    },
    {
     "ingredientId": "egg",
     "qty": 4,
-    "unit": "pcs",
-    "note": "filling, 3 to 4"
+    "unit": "pcs"
    },
    {
     "ingredientId": "egg",
     "qty": 1,
-    "unit": "pcs",
-    "note": "to brush"
+    "unit": "pcs"
    }
   ],
   "steps": [
@@ -941,60 +940,125 @@
    "Roll one stack to the size of a buttered round tin. Spread cheese mixed with eggs. Cover with the second stack and tuck the edges.",
    "Brush with butter and egg. Bake at 180 °C for 40 to 45 minutes."
   ],
-  "originalTitle": "Македонска баница"
+  "image": "macedonian-banitsa.webp"
  },
  {
   "id": "salmon-poke-bowl",
-  "title": "Salmon poke bowl",
+  "title": "Salmon Poke Bowl",
   "collection": "everyday",
   "category": "main",
-  "servings": 2,
-  "timeMinutes": 30,
+  "servings": 4,
+  "timeMinutes": 50,
   "ingredients": [
    {
-    "ingredientId": "basmati",
-    "qty": 250,
+    "ingredientId": "sushi-rice",
+    "qty": 300,
     "unit": "g"
+   },
+   {
+    "ingredientId": "water",
+    "qty": 375,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "rice-vinegar",
+    "qty": 60,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
    },
    {
     "ingredientId": "salmon",
-    "qty": 250,
-    "unit": "g",
-    "note": "sushi grade"
-   },
-   {
-    "ingredientId": "mango",
-    "qty": 100,
-    "unit": "g",
-    "note": "diced"
-   },
-   {
-    "ingredientId": "edamame",
-    "qty": 100,
+    "qty": 400,
     "unit": "g"
    },
    {
+    "ingredientId": "soy-sauce",
+    "qty": 4,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "sesame-oil",
+    "qty": 4,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "honey",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "sesame",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
     "ingredientId": "avocado",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "cucumber",
     "qty": 1,
     "unit": "pcs"
    },
    {
-    "ingredientId": "soy-sauce",
-    "qty": 30,
-    "unit": "ml"
+    "ingredientId": "bean-sprouts",
+    "qty": 100,
+    "unit": "g"
    },
    {
-    "ingredientId": "sesame",
-    "qty": 10,
+    "ingredientId": "baby-salad-leaves",
+    "qty": 80,
     "unit": "g"
+   },
+   {
+    "ingredientId": "edamame",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "chia-seeds",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "black-pepper",
+    "qty": 1,
+    "unit": "pinch"
    }
   ],
   "steps": [
-   "Rinse the rice until the water runs clear, then cook it.",
-   "Dice the salmon and toss with the soy sauce.",
-   "Build the bowls: rice, salmon, mango, edamame, avocado. Finish with sesame."
+   "Thaw the frozen salmon in the fridge for 12 to 24 hours.",
+   "Cut the salmon into 2 cm cubes.",
+   "Mix soy sauce, honey, sesame oil and 1 tbsp water.",
+   "Set aside 2 tbsp of the dressing.",
+   "Add sesame seeds and salmon to the rest, mix gently.",
+   "Marinate in the fridge for 20 to 30 minutes.",
+   "Rinse the rice until the water runs almost clear.",
+   "Bring rice and 360 ml water to a boil, covered.",
+   "Simmer on lowest heat for 12 minutes, lid on.",
+   "Rest covered for 10 minutes.",
+   "Warm rice vinegar, sugar and salt until dissolved.",
+   "Fold the vinegar mix into the rice and let it cool to lukewarm.",
+   "Steam the edamame for 3 to 4 minutes.",
+   "Dice the cucumber.",
+   "Dice the avocados just before serving.",
+   "Divide the rice between 4 bowls.",
+   "Add salmon, avocado, cucumber, sprouts, edamame and leaves.",
+   "Sprinkle with chia seeds and pepper, drizzle with the reserved dressing."
   ],
-  "draft": true
+  "notes": "Freeze the salmon at -15°C for 5 days first (anisakis), or buy it already frozen. Don’t marinate over 1 hour or it turns salty and firm. Time excludes freezing and thawing. Chia seeds optional.",
+  "source": "https://citypoke.es/receta-poke-salmon/",
+  "image": "salmon-poke-bowl.webp"
  },
  {
   "id": "salmon-broccoli",
@@ -1040,78 +1104,7 @@
    "Toss broccoli with oil, garlic and salt on a tray; roast 10 minutes.",
    "Add the salmon, squeeze over lemon, roast 12 minutes more."
   ],
-  "draft": true
- },
- {
-  "id": "paella",
-  "title": "Seafood paella",
-  "collection": "everyday",
-  "category": "main",
-  "servings": 4,
-  "timeMinutes": 50,
-  "ingredients": [
-   {
-    "ingredientId": "paella-rice",
-    "qty": 320,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "prawns",
-    "qty": 400,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "onion",
-    "qty": 1,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "pepper",
-    "qty": 1,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "garlic",
-    "qty": 3,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "chopped-tomatoes",
-    "qty": 200,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "stock",
-    "qty": 1000,
-    "unit": "ml"
-   },
-   {
-    "ingredientId": "saffron",
-    "qty": 1,
-    "unit": "pinch"
-   },
-   {
-    "ingredientId": "paprika",
-    "qty": 1,
-    "unit": "tsp"
-   },
-   {
-    "ingredientId": "olive-oil",
-    "qty": 3,
-    "unit": "tbsp"
-   },
-   {
-    "ingredientId": "lemon",
-    "qty": 1,
-    "unit": "pcs"
-   }
-  ],
-  "steps": [
-   "Fry onion, pepper and garlic in oil. Add tomato and paprika and cook down.",
-   "Stir in the rice, add hot stock and saffron. Do not stir again.",
-   "Simmer 15 minutes, add the prawns on top, cook 5 more. Rest 5 minutes and serve with lemon."
-  ],
-  "draft": true
+  "image": "salmon-broccoli.webp"
  },
  {
   "id": "beetroot-pasta",
@@ -1162,7 +1155,7 @@
    "Blend beetroot, walnuts, parmesan, garlic, oil and lemon juice into a pesto.",
    "Toss with the pasta and a splash of the cooking water."
   ],
-  "draft": true
+  "image": "beetroot-pasta.webp"
  },
  {
   "id": "lentils-eggs",
@@ -1218,30 +1211,35 @@
    "Add lentils, tomatoes and 500 ml water; simmer 15 minutes.",
    "Stir in spinach, make wells, crack in the eggs, cover and cook until set."
   ],
-  "draft": true
+  "image": "lentils-eggs.webp"
  },
  {
   "id": "chickpea-curry",
-  "title": "Chickpea curry",
+  "title": "Chickpea Curry",
   "collection": "everyday",
   "category": "main",
-  "servings": 4,
-  "timeMinutes": 30,
+  "servings": 6,
+  "timeMinutes": 60,
   "ingredients": [
    {
-    "ingredientId": "chickpeas",
-    "qty": 500,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "coconut-milk",
-    "qty": 400,
-    "unit": "ml"
-   },
-   {
-    "ingredientId": "curry-paste",
+    "ingredientId": "sunflower-oil",
     "qty": 2,
     "unit": "tbsp"
+   },
+   {
+    "ingredientId": "coriander-seeds",
+    "qty": 2,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "cumin-seeds",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "curry-leaves",
+    "qty": 15,
+    "unit": "pcs"
    },
    {
     "ingredientId": "onion",
@@ -1250,31 +1248,136 @@
    },
    {
     "ingredientId": "garlic",
-    "qty": 2,
+    "qty": 6,
     "unit": "pcs"
    },
    {
     "ingredientId": "ginger",
-    "qty": 20,
+    "qty": 15,
     "unit": "g"
    },
    {
-    "ingredientId": "spinach",
-    "qty": 100,
+    "ingredientId": "green-chili",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "curry-powder",
+    "qty": 1.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "ground-coriander",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "cinnamon",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "nutmeg",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "ground-turmeric",
+    "qty": 0.25,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "black-pepper",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "tomato-paste",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "tomato",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "chickpeas",
+    "qty": 480,
     "unit": "g"
    },
    {
-    "ingredientId": "basmati",
-    "qty": 250,
+    "ingredientId": "coconut-milk",
+    "qty": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "water",
+    "qty": 120,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "tahini",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "swiss-chard",
+    "qty": 200,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "garam-masala",
+    "qty": 2,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 0.5,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "fresh-coriander",
+    "qty": 15,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "fresh-mint",
+    "qty": 15,
     "unit": "g"
    }
   ],
   "steps": [
-   "Fry onion, garlic and ginger. Add the curry paste and cook a minute.",
-   "Add chickpeas and coconut milk; simmer 15 minutes.",
-   "Stir in spinach. Serve with rice."
+   "Mix the ground spices (curry powder, ground coriander, cinnamon, nutmeg, turmeric, pepper) in a small bowl.",
+   "Heat the oil in a large pan over medium-high heat.",
+   "Toast coriander and cumin seeds for 1 minute until darker.",
+   "Add the curry leaves, cover immediately and cook 20 seconds.",
+   "Add the onion with a pinch of salt and cook 5 minutes.",
+   "Add garlic, ginger and chili, cook 1 to 2 minutes.",
+   "Add the ground spices and tomato paste, stir for 90 seconds.",
+   "Add the tomatoes and 1 tsp salt, cook 5 minutes until soft.",
+   "Stir in chickpeas, coconut milk, water, tahini and sugar.",
+   "Bring to a simmer, cover and cook 15 to 20 minutes, stirring occasionally.",
+   "Strip the chard stems, roll the leaves and slice thinly.",
+   "Add the chard and simmer 4 to 5 minutes until wilted.",
+   "Stir in the garam masala.",
+   "Off the heat, add lemon juice, coriander and mint.",
+   "Season with the remaining salt and rest 5 to 15 minutes.",
+   "Serve with rice or naan."
   ],
-  "draft": true
+  "notes": "Chickpeas = 2 tins, drained. Curry leaves optional. 1 chili is mild, 3 is spicy. Chard can be swapped for kale or baby spinach (1 to 2 min). No whole spices: use 1.5 tsp ground coriander and 0.5 tsp ground cumin instead.",
+  "source": "https://rainbowplantlife.com/chickpea-curry/",
+  "image": "chickpea-curry.webp"
  },
  {
   "id": "shopska-salad",
@@ -1335,7 +1438,7 @@
    "Dress with oil, vinegar and salt.",
    "Grate sirene generously over the top and finish with parsley."
   ],
-  "draft": true
+  "image": "shopska-salad.webp"
  },
  {
   "id": "tarator",
@@ -1391,160 +1494,195 @@
    "Add grated cucumber, crushed garlic, dill and salt.",
    "Serve cold with oil and walnuts on top."
   ],
-  "draft": true
+  "image": "tarator.webp"
  },
  {
   "id": "chicken-traybake",
-  "title": "Chicken and potato traybake",
+  "title": "Chicken and Potato Traybake",
   "collection": "everyday",
   "category": "main",
   "servings": 4,
-  "timeMinutes": 60,
+  "timeMinutes": 50,
   "ingredients": [
    {
-    "ingredientId": "chicken-thighs",
-    "qty": 800,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "potato",
-    "qty": 800,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "onion",
+    "ingredientId": "lemon",
     "qty": 2,
     "unit": "pcs"
    },
    {
-    "ingredientId": "garlic",
-    "qty": 4,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "rosemary",
-    "qty": 5,
-    "unit": "g"
-   },
-   {
     "ingredientId": "olive-oil",
-    "qty": 3,
+    "qty": 2,
     "unit": "tbsp"
    },
    {
-    "ingredientId": "paprika",
-    "qty": 1,
+    "ingredientId": "dried-oregano",
+    "qty": 2,
     "unit": "tsp"
    },
    {
     "ingredientId": "salt",
     "qty": 1,
-    "unit": "tsp"
-   }
-  ],
-  "steps": [
-   "Heat the oven to 200 °C.",
-   "Toss potatoes, onion wedges and garlic with oil, paprika, salt and rosemary.",
-   "Lay the chicken on top and roast for 45 to 50 minutes."
-  ],
-  "draft": true
- },
- {
-  "id": "tortilla",
-  "title": "Spanish tortilla",
-  "collection": "everyday",
-  "category": "main",
-  "servings": 4,
-  "timeMinutes": 40,
-  "ingredients": [
+    "unit": "pinch"
+   },
    {
-    "ingredientId": "egg",
-    "qty": 6,
-    "unit": "pcs"
+    "ingredientId": "black-pepper",
+    "qty": 1,
+    "unit": "pinch"
+   },
+   {
+    "ingredientId": "chicken-thighs",
+    "qty": 1000,
+    "unit": "g"
    },
    {
     "ingredientId": "potato",
-    "qty": 600,
+    "qty": 400,
     "unit": "g"
    },
    {
-    "ingredientId": "onion",
-    "qty": 1,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "olive-oil",
-    "qty": 6,
-    "unit": "tbsp"
-   },
-   {
-    "ingredientId": "salt",
-    "qty": 1,
-    "unit": "tsp"
-   }
-  ],
-  "steps": [
-   "Slowly fry thinly sliced potato and onion in the oil until soft, about 20 minutes.",
-   "Drain, mix with the beaten eggs and salt, rest 10 minutes.",
-   "Cook in a pan on low heat, flip with a plate, and cook the other side."
-  ],
-  "draft": true
- },
- {
-  "id": "mushroom-risotto",
-  "title": "Mushroom risotto",
-  "collection": "everyday",
-  "category": "main",
-  "servings": 3,
-  "timeMinutes": 35,
-  "ingredients": [
-   {
-    "ingredientId": "arborio",
+    "ingredientId": "carrot",
     "qty": 250,
     "unit": "g"
    },
    {
-    "ingredientId": "mushrooms",
-    "qty": 300,
-    "unit": "g"
-   },
-   {
-    "ingredientId": "onion",
-    "qty": 1,
-    "unit": "pcs"
-   },
-   {
-    "ingredientId": "garlic",
+    "ingredientId": "red-onion",
     "qty": 2,
     "unit": "pcs"
    },
    {
-    "ingredientId": "white-wine",
-    "qty": 100,
-    "unit": "ml"
-   },
+    "ingredientId": "garlic",
+    "qty": 8,
+    "unit": "pcs"
+   }
+  ],
+  "steps": [
+   "Preheat the oven to 220°C (200°C fan).",
+   "Mix the juice of 1 lemon, 1 tbsp oil, 1 tsp oregano, salt and pepper in a bowl.",
+   "Coat the chicken thighs in the mixture.",
+   "Put potatoes, carrots, onion wedges and garlic in a large roasting tin.",
+   "Add the remaining oil, oregano, salt and pepper.",
+   "Quarter the second lemon, squeeze over the veg and add the quarters to the tin.",
+   "Toss the veg and spread in a single layer.",
+   "Lay the chicken on top and roast 20 minutes.",
+   "Take the chicken out, stir the veg and spread it out again.",
+   "Nestle the chicken in the veg, pour over any juices and roast 20 minutes more."
+  ],
+  "notes": "8 skin-on thighs. Use new potatoes, halved; carrots whole if small, otherwise batons. Onions in 8 wedges, garlic unpeeled and lightly crushed. Veg must be in one layer or it steams; use 2 tins if needed.",
+  "source": "https://www.easypeasyfoodie.com/chicken-and-potato-traybake/",
+  "image": "chicken-traybake.webp"
+ },
+ {
+  "id": "triple-chocolate-layer-cake",
+  "title": "Triple Chocolate Layer Cake",
+  "collection": "everyday",
+  "category": "baking",
+  "servings": 12,
+  "timeMinutes": 240,
+  "ingredients": [
    {
-    "ingredientId": "stock",
-    "qty": 900,
-    "unit": "ml"
-   },
-   {
-    "ingredientId": "parmesan",
-    "qty": 50,
+    "ingredientId": "flour",
+    "qty": 219,
     "unit": "g"
    },
    {
+    "ingredientId": "cocoa",
+    "qty": 128,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 350,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "baking-soda",
+    "qty": 2,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "baking-powder",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1.25,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "espresso-powder",
+    "qty": 2,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 120,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "vanilla",
+    "qty": 3,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "buttermilk",
+    "qty": 240,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "coffee",
+    "qty": 240,
+    "unit": "ml"
+   },
+   {
     "ingredientId": "butter",
-    "qty": 30,
+    "qty": 282,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "powdered-sugar",
+    "qty": 420,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "cream",
+    "qty": 45,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "dark-chocolate",
+    "qty": 60,
     "unit": "g"
    }
   ],
   "steps": [
-   "Fry the mushrooms until golden and set aside.",
-   "Soften onion and garlic, toast the rice, add the wine.",
-   "Add hot stock a ladle at a time, stirring, for 18 minutes.",
-   "Stir in mushrooms, butter and parmesan."
+   "Preheat the oven to 175°C.",
+   "Grease two 23 cm round cake pans, line with baking paper and grease the paper.",
+   "Whisk flour, 64 g cocoa, sugar, baking soda, baking powder, 1 tsp salt and espresso powder in a large bowl.",
+   "In another bowl, whisk oil, eggs and 2 tsp vanilla until combined.",
+   "Mix in the buttermilk.",
+   "Add the dry ingredients and the hot coffee, then whisk until smooth. The batter is thin.",
+   "Divide the batter between the pans.",
+   "Bake 23 to 26 minutes, until a toothpick comes out clean.",
+   "Cool in the pans on a rack for 1 hour.",
+   "Loosen the edges, turn out, peel off the paper and cool completely.",
+   "For the buttercream, beat the butter on medium speed for 2 minutes until creamy.",
+   "Add icing sugar, 64 g cocoa, 3 tbsp cream, 1 tsp vanilla and 1/4 tsp salt.",
+   "Beat on low for 30 seconds, then on high for 1 minute.",
+   "Adjust texture with more cream if too thick, or more icing sugar or cocoa if too thin.",
+   "Level the cake tops with a serrated knife if domed.",
+   "Place one layer on a plate and cover the top with frosting.",
+   "Add the second layer and frost the top and sides.",
+   "Press chocolate chips on top or around the sides.",
+   "Chill uncovered for 30 to 60 minutes before slicing."
   ],
-  "draft": true
+  "notes": "Use natural cocoa in the cake, not Dutch-process. Split: cocoa 64 g cake / 64 g frosting; vanilla 2 tsp / 1 tsp; salt 1 tsp / 1/4 tsp. Coffee can be hot water; espresso powder and chocolate chips are optional. No buttermilk: 2 tsp vinegar topped up with milk to 240 ml, rest 5 min.",
+  "source": "https://sallysbakingaddiction.com/triple-chocolate-layer-cake/",
+  "image": "triple-chocolate-layer-cake.webp"
  }
 ]

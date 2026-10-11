@@ -6,16 +6,16 @@ const entry = (recipeId: string, day: PlanEntry['day'] = 'mon'): PlanEntry => ({
 
 describe('buildShoppingList', () => {
   it('sums the same ingredient across recipes by id', () => {
-    const list = buildShoppingList([entry('tortilla'), entry('lentils-eggs', 'tue')], seedRecipes, getIngredient);
+    const list = buildShoppingList([entry('waffles'), entry('lentils-eggs', 'tue')], seedRecipes, getIngredient);
     const eggs = list.dairy.find((i) => i.ingredientId === 'egg' && i.unit === 'pcs');
-    expect(eggs?.qty).toBe(9);
-    expect(eggs?.recipeIds).toEqual(['tortilla', 'lentils-eggs']);
+    expect(eggs?.qty).toBe(5);
+    expect(eggs?.recipeIds).toEqual(['waffles', 'lentils-eggs']);
     expect(eggs?.name).toBe('Eggs');
   });
 
   it('counts a recipe planned twice twice', () => {
-    const list = buildShoppingList([entry('tortilla'), entry('tortilla', 'fri')], seedRecipes, getIngredient);
-    expect(list.produce.find((i) => i.ingredientId === 'potato')?.qty).toBe(1200);
+    const list = buildShoppingList([entry('chicken-traybake'), entry('chicken-traybake', 'fri')], seedRecipes, getIngredient);
+    expect(list.produce.find((i) => i.ingredientId === 'potato')?.qty).toBe(800);
   });
 
   it('keeps different units of the same ingredient on separate rows', () => {
@@ -38,8 +38,13 @@ describe('seed data integrity', () => {
   it('every recipe ingredient points at a canonical ingredient', () => {
     for (const r of seedRecipes) for (const l of r.ingredients) expect(getIngredient(l.ingredientId), `${r.id} -> ${l.ingredientId}`).toBeDefined();
   });
-  it('has exactly 24 recipes with unique ids', () => {
-    expect(new Set(seedRecipes.map((r) => r.id)).size).toBe(24);
+  it('has unique recipe ids', () => {
+    expect(new Set(seedRecipes.map((r) => r.id)).size).toBe(seedRecipes.length);
+  });
+
+  it('every built-in photo named in the data is a file in public/recipes', () => {
+    const files = Object.keys(import.meta.glob('/public/recipes/*.webp')).map((f) => f.split('/').pop());
+    for (const r of seedRecipes) if (r.image) expect(files, r.id).toContain(r.image);
   });
 });
 

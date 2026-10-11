@@ -4,7 +4,7 @@ import {
   AppHeader, Button, ButtonLink, IconButton, Notice, NumberField, Page, SectionHeader, Select, Stack, TabBarActions, TextField,
   useSnackbar,
 } from '../../components';
-import { CATEGORIES, UNITS, type Unit } from '../../data';
+import { CATEGORIES, UNITS, builtInPhoto, type Unit } from '../../data';
 import { t } from '../../i18n';
 import { useStore } from '../../lib/store';
 import {
@@ -29,7 +29,7 @@ export function RecipeForm() {
 function RecipeFormFor({ id }: { id?: string }) {
   const navigate = useNavigate();
   const snackbar = useSnackbar();
-  const { recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, photos, setPhoto, removePhoto } = useStore();
+  const { recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, ownPhotos, setPhoto, removePhoto } = useStore();
   const existing = id ? recipes.find((r) => r.id === id) : undefined;
   const [draft, setDraft] = useState<Draft>(() => (existing ? toDraft(existing, lookupIngredient) : emptyDraft()));
   const [submitted, setSubmitted] = useState(false);
@@ -79,7 +79,9 @@ function RecipeFormFor({ id }: { id?: string }) {
     navigate(`/app/recipes/${recipe.id}`, { replace: true });
   };
 
-  const photo = photoRemoved ? '' : preview || (existing ? photos[existing.id] : '') || '';
+  // Removing your photo falls back to the built-in one, if the recipe ships with one.
+  const own = !photoRemoved && (preview || (existing ? ownPhotos[existing.id] : ''));
+  const photo = own || (existing ? builtInPhoto(existing.id) : '') || '';
   const pickPhoto = async (file?: File) => {
     if (!file) return;
     try {
@@ -190,7 +192,7 @@ function RecipeFormFor({ id }: { id?: string }) {
               <Button icon="upload" variant="secondary" size="small" onClick={() => fileRef.current?.click()}>
                 {t(photo ? 'recipe.changePhoto' : 'recipe.addPhoto')}
               </Button>
-              {photo && <Button variant="secondary" size="small" onClick={clearPhoto}>{t('recipe.removePhoto')}</Button>}
+              {own && <Button variant="secondary" size="small" onClick={clearPhoto}>{t('recipe.removePhoto')}</Button>}
             </Stack>
             <input ref={fileRef} type="file" accept="image/*" hidden aria-hidden="true" tabIndex={-1}
               onChange={(e) => { pickPhoto(e.target.files?.[0]); e.target.value = ''; }} />

@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { blobToDataUrl, dataUrlToBlob, deletePhoto, loadPhotos, parsePhotos, replacePhotos, savePhoto, shrinkImage } from './photos';
-import { getIngredient, ingredients as seedIngredients, seedRecipes, type Day, type Ingredient, type PlanEntry, type Recipe, type Slot, DAYS, SLOTS } from '../data';
+import { builtInPhoto, getIngredient, ingredients as seedIngredients, seedRecipes, type Day, type Ingredient, type PlanEntry, type Recipe, type Slot, DAYS, SLOTS } from '../data';
 import { isSeed, isSeedDraft, parseIngredient, parseRecipe } from './recipeForm';
 
 /** Everything that belongs to the user. Exported as one plain JSON file, Fontello-style. */
@@ -83,6 +83,8 @@ interface Store {
   clearChecked: () => void;
   /** Object URLs of recipe photos, keyed by recipe id. Kept in IndexedDB, not in UserState. */
   photos: Record<string, string>;
+  /** Only the photos this browser added (IndexedDB), without the built-in ones. */
+  ownPhotos: Record<string, string>;
   setPhoto: (recipeId: string, file: Blob) => Promise<void>;
   removePhoto: (recipeId: string) => Promise<void>;
   exportFile: () => Promise<string>;
@@ -94,7 +96,7 @@ const Ctx = createContext<Store | null>(null);
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<UserState>(load);
-  const [photos, setPhotos] = useState<Record<string, string>>({});
+  const [ownPhotos, setPhotos] = useState<Record<string, string>>({});
 
   const showPhotos = useCallback((blobs: Map<string, Blob>) => {
     setPhotos((old) => {
@@ -214,9 +216,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setState(next);
   }, [showPhotos]);
 
+  // Built-in photos ship with the site (public/recipes/); a photo added in this browser wins.
+  const photos = useMemo(() => ({
+    ...Object.fromEntries(seedRecipes.flatMap((r) => { const url = builtInPhoto(r.id); return url ? [[r.id, url]] : []; })),
+    ...ownPhotos,
+  }), [ownPhotos]);
+
   const value = useMemo<Store>(
-    () => ({ state, recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, addToPlan, planRecipe, removeFromPlan, clearPlan, toggleChecked, clearChecked, photos, setPhoto, removePhoto, exportFile, importFile }),
-    [state, recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, addToPlan, planRecipe, removeFromPlan, clearPlan, toggleChecked, clearChecked, photos, setPhoto, removePhoto, exportFile, importFile],
+    () => ({ state, recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, addToPlan, planRecipe, removeFromPlan, clearPlan, toggleChecked, clearChecked, photos, ownPhotos, setPhoto, removePhoto, exportFile, importFile }),
+    [state, recipes, allIngredients, lookupIngredient, saveRecipe, deleteRecipe, canEdit, canDelete, addToPlan, planRecipe, removeFromPlan, clearPlan, toggleChecked, clearChecked, photos, ownPhotos, setPhoto, removePhoto, exportFile, importFile],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

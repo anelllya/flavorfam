@@ -520,5 +520,149 @@
   "name": "Fresh rosemary",
   "unit": "g",
   "aisle": "produce"
+ },
+ {
+  "id": "espresso-powder",
+  "name": "Espresso powder",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "buttermilk",
+  "name": "Buttermilk",
+  "unit": "ml",
+  "aisle": "dairy"
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "sushi-rice",
+  "name": "Sushi rice",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "rice-vinegar",
+  "name": "Rice vinegar",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "sesame-oil",
+  "name": "Sesame oil",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "bean-sprouts",
+  "name": "Bean sprouts",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "baby-salad-leaves",
+  "name": "Baby salad leaves",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "chia-seeds",
+  "name": "Chia seeds",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "coriander-seeds",
+  "name": "Coriander seeds",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "cumin-seeds",
+  "name": "Cumin seeds",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "curry-leaves",
+  "name": "Curry leaves",
+  "unit": "pcs",
+  "aisle": "produce"
+ },
+ {
+  "id": "green-chili",
+  "name": "Green chili",
+  "unit": "pcs",
+  "aisle": "produce"
+ },
+ {
+  "id": "curry-powder",
+  "name": "Curry powder",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "ground-coriander",
+  "name": "Ground coriander",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "ground-turmeric",
+  "name": "Ground turmeric",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "tomato-paste",
+  "name": "Tomato paste",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "swiss-chard",
+  "name": "Swiss chard",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "garam-masala",
+  "name": "Garam masala",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "fresh-coriander",
+  "name": "Fresh coriander",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "fresh-mint",
+  "name": "Fresh mint",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "dried-oregano",
+  "name": "Dried oregano",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "carrot",
+  "name": "Carrot",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "red-onion",
+  "name": "Red onion",
+  "unit": "pcs",
+  "aisle": "produce"
  }
 ]

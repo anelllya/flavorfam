@@ -20,7 +20,7 @@ export async function seedPlan(page: Page, plan: { day: string; slot: string; re
 }
 
 export const samplePlan = [
-  { day: 'mon', slot: 'dinner', recipeId: 'tortilla' },
+  { day: 'mon', slot: 'dinner', recipeId: 'chicken-traybake' },
   { day: 'tue', slot: 'lunch', recipeId: 'lentils-eggs' },
   { day: 'wed', slot: 'breakfast', recipeId: 'mekitsi' },
   { day: 'thu', slot: 'dinner', recipeId: 'salmon-broccoli' },

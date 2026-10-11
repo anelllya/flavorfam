@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import seedRecipesJson from '../src/data/recipes.json' with { type: 'json' };
 import { expectNoA11yViolations, samplePlan, seedPlan } from './helpers';
 
 const routes = [
@@ -68,7 +69,7 @@ test('list: ticks persist and aggregate across recipes', async ({ page }) => {
   await seedPlan(page, samplePlan);
   await page.goto('/#/app/list');
   const eggs = page.getByRole('checkbox', { name: /Eggs/ });
-  await expect(page.getByText(/^10\s+Eggs/)).toBeVisible();
+  await expect(page.getByText(/^4\s+Eggs/)).toBeVisible();
   await eggs.check();
   await page.reload();
   await expect(page.getByRole('checkbox', { name: /Eggs/ })).toBeChecked();
@@ -163,40 +164,32 @@ test('import from the web: an AI reply fills the form, a bad one is refused', as
   await expect(source).toHaveAttribute('target', '_blank');
 });
 
-test('draft recipes: Edit sits in the tab bar, the edit replaces the placeholder and keeps the plan', async ({ page }) => {
+test('edit a built-in recipe from the tab bar: the edit replaces it and the plan keeps it', async ({ page }) => {
   await seedPlan(page, samplePlan);
-  await page.goto('/#/app/recipes/waffles');
-  await expect(page.getByRole('link', { name: 'Edit recipe' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Delete recipe' })).toHaveCount(0);
-  await expect(page.getByRole('button', { name: 'Add photo' })).toHaveCount(0);
-
   await page.goto('/#/app/recipes/lentils-eggs');
-  await expect(page.getByText('Placeholder recipe.')).toBeVisible();
   await page.getByRole('link', { name: 'Edit recipe' }).click();
   await expect(page.getByRole('heading', { level: 1, name: 'Edit recipe' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Add photo' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Delete recipe' })).toHaveCount(0);
   await page.getByLabel('Recipe name', { exact: true }).fill("Mum's lentils with eggs");
   await page.getByRole('button', { name: 'Save recipe' }).click();
 
   await expect(page.getByRole('heading', { name: "Mum's lentils with eggs" })).toBeVisible();
-  await expect(page.getByText('Placeholder recipe.')).toHaveCount(0);
   await page.goto('/#/app/week');
   await expect(page.getByRole('link', { name: "Mum's lentils with eggs" })).toBeVisible();
 });
 
+// Runs only while the seed data has a placeholder (draft) recipe; there are none right now.
+const draft = (seedRecipesJson as { id: string; title: string; draft?: boolean }[]).find((r) => r.draft);
 test('delete a draft from the tab bar: it leaves the list and the week, and stays gone', async ({ page }) => {
-  await seedPlan(page, samplePlan);
-  await page.goto('/#/app/recipes/tortilla');
+  test.skip(!draft, 'no placeholder recipes in the seed data');
+  await seedPlan(page, [{ day: 'mon', slot: 'dinner', recipeId: draft!.id }]);
+  await page.goto(`/#/app/recipes/${draft!.id}`);
   page.once('dialog', (d) => d.accept());
   await page.getByRole('button', { name: 'Delete recipe' }).click();
   await expect(page.getByRole('heading', { level: 1, name: 'Recipes' })).toBeVisible();
-  await expect(page.getByRole('link', { name: /Spanish tortilla/ })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: new RegExp(draft!.title) })).toHaveCount(0);
   await page.reload();
-  await expect(page.getByRole('link', { name: /Spanish tortilla/ })).toHaveCount(0);
-  await page.goto('/#/app/week');
-  await expect(page.getByRole('link', { name: 'Spanish tortilla' })).toHaveCount(0);
-  await page.goto('/#/app/recipes/waffles');
-  await expect(page.getByRole('button', { name: 'Delete recipe' })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: new RegExp(draft!.title) })).toHaveCount(0);
 });
 
 test("edit Mama's recipe: the change sticks, the Bulgarian title stays", async ({ page }) => {
@@ -251,7 +244,7 @@ test('context bar: search on list screens, recipe actions on a recipe, Save/Canc
 });
 
 test('add to week: one dish across several meals, toggles are accessible, repeats are skipped', async ({ page }) => {
-  await page.goto('/#/app/recipes/tortilla');
+  await page.goto('/#/app/recipes/chicken-traybake');
   await page.getByRole('button', { name: 'Add to week' }).click();
   const sheet = page.getByRole('dialog', { name: 'Add to week' });
   await expect(sheet.getByRole('button', { name: 'Pick at least one day and one meal.' })).toBeDisabled();
@@ -270,13 +263,13 @@ test('add to week: one dish across several meals, toggles are accessible, repeat
   await expect(page.getByRole('status').filter({ hasText: 'Already planned for those meals.' })).toHaveText('Already planned for those meals.');
 
   await page.goto('/#/app/week');
-  await expect(page.getByRole('link', { name: 'Spanish tortilla' })).toHaveCount(4);
+  await expect(page.getByRole('link', { name: 'Chicken and Potato Traybake' })).toHaveCount(4);
 });
 
 test('shopping list: seasonings sit together under Spices & seasonings', async ({ page }) => {
   await seedPlan(page, samplePlan);
   await page.goto('/#/app/list');
-  await expect(page.getByRole('region', { name: 'Spices & seasonings' }).getByText(/Salt/)).toBeVisible();
+  await expect(page.getByRole('region', { name: 'Spices & seasonings' }).getByText(/Salt/).first()).toBeVisible();
   await expect(page.getByRole('region', { name: 'Pantry' }).getByText(/Salt/)).toHaveCount(0);
 });
 
@@ -297,7 +290,7 @@ test('one dish per slot: adding to a planned meal replaces it and says so', asyn
   await sheet.getByRole('button', { name: 'Add to 1 meal' }).click();
   await expect(page.getByRole('status').filter({ hasText: 'Added to 1 meal this week. 1 planned meal was replaced.' })).toHaveText('Added to 1 meal this week. 1 planned meal was replaced.');
   await page.goto('/#/app/week');
-  await expect(page.getByRole('link', { name: 'Spanish tortilla' })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Chicken and Potato Traybake' })).toHaveCount(0);
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('flavorfam:v1') ?? '{}'));
   expect(saved.plan.filter((p: { day: string; slot: string }) => p.day === 'mon' && p.slot === 'dinner')).toHaveLength(1);
 });

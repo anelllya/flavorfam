@@ -70,8 +70,8 @@ describe('parseRecipe / parseState', () => {
     expect(state.recipes[0].ingredients).toHaveLength(1);
   });
 
-  it('lets a user version replace a seed placeholder, keeping its id and collection', () => {
-    const seed = seedRecipes.find((r) => r.draft)!;
+  it('lets a user version replace a seed recipe, keeping its id and collection', () => {
+    const seed = seedRecipes.find((r) => r.collection === 'everyday')!;
     const { recipe } = toRecipe(filled(), ingredients, seed.id);
     expect(recipe).toMatchObject({ id: seed.id, collection: seed.collection });
     expect(recipe.draft).toBeUndefined();
@@ -81,7 +81,14 @@ describe('parseRecipe / parseState', () => {
     expect(state.plan).toHaveLength(1);
   });
 
-  it('remembers deleted placeholders and drops their plan entries; ignores anything else', () => {
+  it('never records a finished seed recipe as deleted', () => {
+    const finished = seedRecipes.find((r) => !r.draft)!;
+    const state = parseState({ version: 1, checked: [], recipes: [], customIngredients: [], deletedSeeds: [finished.id, 42], plan: [] });
+    expect(state.deletedSeeds).toEqual([]);
+  });
+
+  // The seed data has no placeholders right now; the draft mechanism stays for future ones.
+  it.runIf(seedRecipes.some((r) => r.draft))('remembers deleted placeholders and drops their plan entries; ignores anything else', () => {
     const draft = seedRecipes.find((r) => r.draft)!;
     const finished = seedRecipes.find((r) => !r.draft)!;
     const state = parseState({ version: 1, checked: [], recipes: [], customIngredients: [],

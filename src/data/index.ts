@@ -18,3 +18,9 @@ export function getIngredient(id: string, extra: Ingredient[] = []): Ingredient 
 export function ingredientLabel(ing: Ingredient, qty: number, unit: Ingredient['unit']): string {
   return unit === 'pcs' && qty !== 1 && ing.namePlural ? ing.namePlural : ing.name;
 }
+
+/** URL of a recipe's built-in photo (public/recipes/), looked up in the seed data so edits keep it. */
+export function builtInPhoto(id: string): string | undefined {
+  const image = seedRecipes.find((r) => r.id === id)?.image;
+  return image ? `${import.meta.env.BASE_URL}recipes/${image}` : undefined;
+}
