@@ -1,0 +1,372 @@
+.site {
+  min-block-size: 100dvh;
+  background: var(--color-bg);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  max-inline-size: 72rem;
+  margin: 0 auto;
+  padding: var(--space-4);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-inline-end: auto;
+  color: var(--color-primary);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-xl);
+  text-decoration: none;
+}
+
+.link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: var(--font-ui);
+  font-size: var(--text-lg);
+}
+
+.link[aria-current='page'] {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: var(--space-1);
+}
+
+.main {
+  max-inline-size: 72rem;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4) var(--space-12);
+}
+
+.landing {
+  padding-block-end: var(--space-12);
+}
+
+/*
+ * The phone fills the viewport left under the nav (which wraps to two rows on narrow screens).
+ * Behind it: a bullet-journal dot grid that fades out from the phone (::before), and soft colour
+ * blobs that make the screen read as the light source (::after). All from tokens, so both follow
+ * light and dark.
+ */
+.stage {
+  --dot: color-mix(in srgb, var(--color-text) 28%, transparent);
+
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  padding: var(--space-2) var(--space-4) var(--space-6);
+}
+
+.stage::before,
+.stage::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Dot grid, like a bullet journal page. Masks only read alpha; any opaque token will do. */
+.stage::before {
+  background-image: radial-gradient(circle, var(--dot) 1px, transparent 1.5px);
+  background-size: var(--space-6) var(--space-6);
+  background-position: center top;
+  mask-image: radial-gradient(ellipse 60% 80% at 50% 50%, var(--color-text) 25%, transparent 85%);
+}
+
+.stage::after {
+  background:
+    radial-gradient(ellipse 18rem 26rem at 50% 45%, color-mix(in srgb, var(--color-primary) 38%, transparent), transparent 70%),
+    radial-gradient(ellipse 16rem 20rem at 38% 70%, color-mix(in srgb, var(--color-secondary) 30%, transparent), transparent 70%),
+    radial-gradient(ellipse 14rem 18rem at 64% 22%, color-mix(in srgb, var(--color-accent) 26%, transparent), transparent 70%);
+}
+
+.intro {
+  max-inline-size: 48rem;
+  margin: 0 auto;
+  padding-inline: var(--space-4);
+}
+
+.eyebrow {
+  color: var(--color-secondary);
+  font-family: var(--font-ui);
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+}
+
+.title {
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-display));
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+
+.lede {
+  max-inline-size: 38rem;
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+/*
+ * The app always renders at the Figma frame size (393 x 852) and is scaled down as a whole,
+ * so on short screens the type and spacing shrink together instead of the layout reflowing.
+ * --phone-h is the screen height left after the nav, or whatever the width allows.
+ */
+.phone {
+  --frame-w: 393px;
+  --frame-h: 852px;
+  --phone-offset: 10rem;
+  --phone-bezel: var(--space-3);
+  --phone-h: min(
+    var(--frame-h),
+    calc(100svh - var(--phone-offset) - var(--phone-bezel) * 2),
+    calc((100vw - var(--space-4) * 2 - var(--phone-bezel) * 2) * 852 / 393)
+  );
+
+  box-sizing: content-box;
+  container-type: size;
+  block-size: var(--phone-h);
+  aspect-ratio: 393 / 852;
+  border: var(--phone-bezel) solid var(--color-surface);
+  border-radius: calc(var(--radius-lg) * 2);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-primary) 55%, transparent),
+    0 0 var(--space-12) color-mix(in srgb, var(--color-primary) 30%, transparent);
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+@media (width >= 640px) {
+  .phone {
+    --phone-offset: 7rem;
+  }
+}
+
+/* tan(atan2(a, b)) turns the ratio of two lengths into a plain number for scale(). */
+.frame {
+  display: block;
+  inline-size: var(--frame-w);
+  block-size: var(--frame-h);
+  border: 0;
+  transform: scale(tan(atan2(100cqh, var(--frame-h))));
+  transform-origin: 0 0;
+}
+
+.loop {
+  inline-size: 100%;
+  block-size: auto;
+  color: var(--color-text);
+}
+
+.gate {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  font-family: var(--font-ui);
+}
+
+.pass {
+  color: var(--color-success);
+  font-weight: var(--weight-bold);
+}
+
+.fail {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-weight: var(--weight-bold);
+}
+
+.fail::before {
+  content: '';
+  inline-size: var(--space-2);
+  block-size: var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--color-danger);
+}
+
+.muted {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.footer {
+  padding: var(--space-8) var(--space-4);
+  color: var(--color-text-muted);
+  text-align: center;
+  font-size: var(--text-sm);
+}
+
+.prose {
+  max-inline-size: 42rem;
+  margin: 0 auto;
+  font-size: var(--text-lg);
+}
+
+.prose :where(h1) {
+  margin-block-end: var(--space-6);
+  font-size: var(--text-3xl);
+  line-height: var(--leading-tight);
+}
+
+.prose :where(h2) {
+  margin-block: var(--space-12) var(--space-3);
+  scroll-margin-block-start: var(--space-6);
+  font-size: var(--text-2xl);
+  line-height: var(--leading-tight);
+}
+
+.prose :where(h3) {
+  margin-block: var(--space-6) var(--space-2);
+  font-size: var(--text-xl);
+}
+
+.prose :where(p, ul, ol, pre, blockquote, table) {
+  margin-block: 0 var(--space-4);
+}
+
+.prose :where(code) {
+  font-size: var(--text-sm);
+}
+
+.prose :where(pre) {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.prose :where(blockquote) {
+  margin-inline: 0;
+  padding-inline-start: var(--space-4);
+  border-inline-start: var(--space-1) solid var(--color-primary);
+  color: var(--color-text-muted);
+}
+
+.prose :where(table) {
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.prose :where(th, td) {
+  padding: var(--space-2);
+  border-block-end: 1px solid var(--color-border);
+  text-align: start;
+}
+
+/* Article with "On this page" navigation: contents first on narrow screens, a sticky right column on wide ones. */
+.withToc {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-8);
+}
+
+.withToc > :first-child {
+  margin: 0;
+}
+
+.toc {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-family: var(--font-ui);
+}
+
+@media (width >= 960px) {
+  .withToc {
+    display: grid;
+    grid-template-columns: minmax(0, 42rem) 16rem;
+    justify-content: center;
+    align-items: start;
+    gap: var(--space-12);
+  }
+
+  .withToc > :first-child {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  /* Wide content (System): the content column flexes instead of being an article measure. */
+  .wide {
+    grid-template-columns: minmax(0, 1fr) 14rem;
+    justify-content: stretch;
+  }
+
+  .toc {
+    position: sticky;
+    inset-block-start: var(--space-6);
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+.tocTitle {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+
+.tocList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-inline-start: var(--border-control) solid var(--color-border);
+}
+
+/* One line per entry; the full heading is the link's text (for screen readers) and its tooltip. */
+.tocLink {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-inline-start: calc(var(--border-control) * -1);
+  padding: var(--space-1) var(--space-3);
+  border-inline-start: 2px solid transparent;
+  color: var(--color-text-muted);
+  font-size: var(--text-md);
+  line-height: var(--leading-tight);
+  text-decoration: none;
+}
+
+.tocLink:hover {
+  color: var(--color-text);
+}
+
+.tocLink[aria-current='location'] {
+  border-inline-start-color: var(--color-primary);
+  color: var(--color-text);
+  font-weight: var(--weight-semibold);
+}

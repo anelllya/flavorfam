@@ -1,0 +1,36 @@
+/* Bottom sheet: full width up to the app's content width, rounded top like the tab bar. */
+.dialog {
+  inset-block: auto 0;
+  inline-size: 100%;
+  max-inline-size: var(--size-content-max);
+  max-block-size: 90dvh;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.dialog::backdrop {
+  background: color-mix(in srgb, var(--color-bg) 70%, transparent);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-4) var(--space-4);
+}
+
+.title {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}

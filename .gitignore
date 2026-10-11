@@ -1,0 +1,7 @@
+node_modules
+dist
+test-results
+playwright-report
+evals/report.json
+.DS_Store
+*.tsbuildinfo

@@ -1,0 +1,17 @@
+.rail {
+  display: flex;
+  gap: var(--space-3);
+  margin: 0 calc(var(--space-4) * -1);
+  padding: 0 var(--space-4) var(--space-2);
+  overflow-x: auto;
+  list-style: none;
+  scroll-padding-inline: var(--space-4);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+/* 2.4 cards per view: the third is cut off, so the row reads as scrollable. */
+.item {
+  flex: 0 0 calc((100% - var(--space-3) * 2) / 2.4);
+  scroll-snap-align: start;
+}

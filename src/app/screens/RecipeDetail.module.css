@@ -1,0 +1,77 @@
+.hero {
+  display: grid;
+  align-content: end;
+  gap: var(--space-1);
+  min-block-size: 12rem;
+  padding: var(--space-6) var(--space-4);
+  border-radius: var(--radius-lg);
+  color: var(--color-on-featured);
+}
+
+.heroPlain {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.photo {
+  inline-size: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+}
+
+.main, .salad-soup { background: var(--color-featured-green); }
+.breakfast, .drink { background: var(--color-featured-orange); }
+.baking, .dessert { background: var(--color-featured-brown); }
+
+.title {
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-tight);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+  padding-inline-start: var(--space-6);
+}
+
+.notes {
+  padding: var(--space-3) var(--space-4);
+  border-inline-start: var(--space-1) solid var(--color-primary);
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The main action fills the tab bar's context row; icon actions keep their size. */
+.grow {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.hint {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}

@@ -1,0 +1,29 @@
+.group {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  gap: var(--space-1);
+}
+
+.toggle {
+  min-block-size: var(--size-tap);
+  padding: var(--space-1);
+  border: var(--border-control) solid var(--color-primary);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-primary);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background: var(--color-hover-bg);
+  color: var(--color-primary-strong);
+}
+
+.toggle[aria-pressed='true'] {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}

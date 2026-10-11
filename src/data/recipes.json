@@ -1,0 +1,1550 @@
+[
+ {
+  "id": "chocolate-yoghurt-cake",
+  "title": "Chocolate yoghurt cake",
+  "collection": "mama",
+  "category": "dessert",
+  "servings": 12,
+  "timeMinutes": 60,
+  "ingredients": [
+   {
+    "ingredientId": "yoghurt",
+    "qty": 400,
+    "unit": "g",
+    "note": "1 yoghurt pot; the pot is the measuring cup"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 320,
+    "unit": "g",
+    "note": "1 yoghurt pot"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 220,
+    "unit": "g",
+    "note": "1 yoghurt pot"
+   },
+   {
+    "ingredientId": "baking-soda",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "cocoa",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "dried-fruit",
+    "qty": 100,
+    "unit": "g",
+    "note": "optional"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 10,
+    "unit": "g",
+    "note": "for the tin"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 100,
+    "unit": "ml",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "cocoa",
+    "qty": 2,
+    "unit": "tbsp",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 30,
+    "unit": "g",
+    "note": "glaze, 2 tbsp"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 15,
+    "unit": "g",
+    "note": "glaze"
+   }
+  ],
+  "steps": [
+   "Stir yoghurt, sugar, flour, baking soda and cocoa with a wooden spoon for 2 minutes until smooth. Fold in the dried fruit.",
+   "For a white version, swap the cocoa for grated lemon zest.",
+   "Pour into a buttered tin and bake at 180 °C for about 45 minutes, until it pulls away from the sides.",
+   "Warm the milk, cocoa, sugar and butter for the glaze. Pour it over the cake once the cake has cooled."
+  ],
+  "originalTitle": "Шоколадов сладкиш",
+  "notes": "Original measures everything with the yoghurt pot. For the smallest tin, use small pots and only half a teaspoon of soda.",
+  "source": "recepti.gotvach.bg/r-58545"
+ },
+ {
+  "id": "ladyfinger-cake",
+  "title": "Ladyfinger cake",
+  "collection": "mama",
+  "category": "dessert",
+  "servings": 12,
+  "timeMinutes": 60,
+  "ingredients": [
+   {
+    "ingredientId": "ladyfingers",
+    "qty": 400,
+    "unit": "g",
+    "note": "2 packs"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 500,
+    "unit": "g",
+    "note": "softened"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 7,
+    "unit": "pcs",
+    "note": "yolks for the cream, whites for the meringue"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 75,
+    "unit": "g",
+    "note": "5 tbsp"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 1500,
+    "unit": "ml",
+    "note": "for dipping"
+   },
+   {
+    "ingredientId": "rum",
+    "qty": 50,
+    "unit": "ml",
+    "note": "for dipping"
+   },
+   {
+    "ingredientId": "croquant",
+    "qty": 100,
+    "unit": "g",
+    "note": "1 small bowl"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 1,
+    "unit": "pcs",
+    "note": "zest only"
+   }
+  ],
+  "steps": [
+   "Lay everything out. Dip each ladyfinger in milk with a splash of rum (no sugar) and line the first layer.",
+   "Beat the softened butter with the yolks, sugar and finely chopped lemon zest into a cream. Spread over the layer.",
+   "Sprinkle with a little croquant. Repeat up to 4 layers.",
+   "Whip the egg whites to stiff peaks, spread over the top and sides in flames, and bake at 100 °C for 5 to 10 minutes just to set them."
+  ],
+  "originalTitle": "Бишкотена торта",
+  "notes": "Improvise between layers: dried fruit, thin banana or kiwi slices."
+ },
+ {
+  "id": "pitka",
+  "title": "Pitka (festive bread)",
+  "collection": "mama",
+  "category": "baking",
+  "servings": 10,
+  "timeMinutes": 120,
+  "ingredients": [
+   {
+    "ingredientId": "flour",
+    "qty": 1000,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 500,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 15,
+    "unit": "g",
+    "note": "1 tbsp"
+   },
+   {
+    "ingredientId": "rakia",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 15,
+    "unit": "g",
+    "note": "1 tbsp"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 1,
+    "unit": "pcs",
+    "note": "white in the dough, yolk to brush"
+   },
+   {
+    "ingredientId": "yoghurt",
+    "qty": 15,
+    "unit": "g",
+    "note": "1 tbsp"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 2,
+    "unit": "pcs",
+    "note": "filling, amount not in original"
+   },
+   {
+    "ingredientId": "sirene",
+    "qty": 200,
+    "unit": "g",
+    "note": "filling, amount not in original"
+   }
+  ],
+  "steps": [
+   "Knead the dough and let it rise for 25 minutes.",
+   "Roll it out on the table, spread with beaten egg and crumbled cheese, roll up and cut into triangles.",
+   "Arrange in the tin, let rise somewhere warm, brush with the yolk.",
+   "Bake at 220 °C for 45 to 50 minutes."
+  ],
+  "originalTitle": "Питката",
+  "notes": "The original lists no yeast, but the dough rises. Check with mum before trusting this one."
+ },
+ {
+  "id": "chocolate-walnut-pie",
+  "title": "Chocolate walnut pie",
+  "collection": "mama",
+  "category": "dessert",
+  "servings": 8,
+  "timeMinutes": 60,
+  "ingredients": [
+   {
+    "ingredientId": "egg",
+    "qty": 4,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "powdered-sugar",
+    "qty": 30,
+    "unit": "g",
+    "note": "2 tbsp"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 200,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "walnuts",
+    "qty": 250,
+    "unit": "g",
+    "note": "crushed"
+   },
+   {
+    "ingredientId": "white-wine",
+    "qty": 150,
+    "unit": "ml",
+    "note": "10 tbsp"
+   },
+   {
+    "ingredientId": "dark-chocolate",
+    "qty": 200,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "cocoa",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 10,
+    "unit": "g",
+    "note": "for the tin"
+   }
+  ],
+  "steps": [
+   "Beat the yolks with half the icing sugar until pale. Add 150 g walnuts and the chocolate melted with the cocoa.",
+   "Whip the whites with the rest of the sugar and fold in. Sift in the flour slowly.",
+   "Bake in a buttered tin at 170 °C for 35 to 40 minutes.",
+   "Once cool, pour over chocolate and sprinkle the remaining walnuts."
+  ],
+  "originalTitle": "Шоколадово-орехов пай",
+  "notes": "The wine appears in the list but not in the method. Mum's secret, presumably."
+ },
+ {
+  "id": "mekitsi",
+  "title": "Soda mekitsi",
+  "collection": "mama",
+  "category": "breakfast",
+  "servings": 4,
+  "timeMinutes": 30,
+  "ingredients": [
+   {
+    "ingredientId": "yoghurt",
+    "qty": 250,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "baking-soda",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp",
+    "note": "heaped"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 500,
+    "unit": "g",
+    "note": "about"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 500,
+    "unit": "ml",
+    "note": "for frying"
+   }
+  ],
+  "steps": [
+   "Mix the yoghurt with the soda and salt, add the egg, then add flour little by little until it becomes a dough.",
+   "With oiled hands, stretch pieces of dough one by one on foil.",
+   "Fry in hot oil until golden."
+  ],
+  "originalTitle": "Содени мекички"
+ },
+ {
+  "id": "kozunak",
+  "title": "Kozunak (sweet Easter bread)",
+  "collection": "mama",
+  "category": "baking",
+  "servings": 10,
+  "timeMinutes": 240,
+  "ingredients": [
+   {
+    "ingredientId": "egg",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 150,
+    "unit": "g",
+    "note": "10 tbsp"
+   },
+   {
+    "ingredientId": "fresh-yeast",
+    "qty": 25,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 200,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 30,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "vanilla",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 1,
+    "unit": "pcs",
+    "note": "zest only, yellow part"
+   },
+   {
+    "ingredientId": "rakia",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "yoghurt",
+    "qty": 60,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 575,
+    "unit": "g",
+    "note": "550 to 600 g"
+   }
+  ],
+  "steps": [
+   "Make a soft dough. Let it rise twice.",
+   "Bake at 180 °C for 50 minutes.",
+   "Too much dough? Make small rolls, or a roll with raisins, walnuts, sugar, cinnamon and thick jam."
+  ],
+  "originalTitle": "Козунак",
+  "notes": "This is the small batch. The doc also has a double batch (4 eggs, 1.3 kg flour). \"Improvise, you can do it.\""
+ },
+ {
+  "id": "pogacha-eva",
+  "title": "Festive pogacha Eva",
+  "collection": "mama",
+  "category": "baking",
+  "servings": 10,
+  "timeMinutes": 150,
+  "ingredients": [
+   {
+    "ingredientId": "flour",
+    "qty": 550,
+    "unit": "g",
+    "note": "500 to 600 g"
+   },
+   {
+    "ingredientId": "fresh-yeast",
+    "qty": 20,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 3,
+    "unit": "pcs",
+    "note": "keep one yolk to brush"
+   },
+   {
+    "ingredientId": "lard",
+    "qty": 2,
+    "unit": "tbsp",
+    "note": "softened, or oil"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 15,
+    "unit": "g",
+    "note": "1 tbsp, or honey"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 2.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "vinegar",
+    "qty": 0.5,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 250,
+    "unit": "ml",
+    "note": "warm"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 100,
+    "unit": "g",
+    "note": "melted"
+   },
+   {
+    "ingredientId": "sesame",
+    "qty": 10,
+    "unit": "g",
+    "note": "optional"
+   }
+  ],
+  "steps": [
+   "Dissolve yeast and sugar in 100 ml of the milk. Add eggs (keep one yolk), salt, vinegar, lard and the rest of the milk.",
+   "Add the sifted flour bit by bit until the dough leaves the bowl. Knead and let rise for about an hour.",
+   "Divide into 8 pieces, roll each to 3 to 5 mm and brush with melted butter. Stack 4 and roll up; repeat. Cut the rolls into triangles.",
+   "Arrange the ends in the centre of a 28 cm tin and the triangles around them. Rise 30 to 40 minutes, brush with yolk and milk, sprinkle seeds.",
+   "Bake in a preheated oven for 25 to 30 minutes, lowering to 160 °C if needed. Brush with butter and cover with a cloth."
+  ],
+  "originalTitle": "Празнична погача Ева"
+ },
+ {
+  "id": "waffles",
+  "title": "Waffles",
+  "collection": "mama",
+  "category": "breakfast",
+  "servings": 4,
+  "timeMinutes": 20,
+  "ingredients": [
+   {
+    "ingredientId": "flour",
+    "qty": 250,
+    "unit": "g",
+    "note": "2 cups"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "baking-powder",
+    "qty": 4,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 30,
+    "unit": "g",
+    "note": "2 to 2.5 tbsp"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 480,
+    "unit": "ml",
+    "note": "2 cups, warm"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 75,
+    "unit": "g",
+    "note": "1/3 cup"
+   },
+   {
+    "ingredientId": "vanilla",
+    "qty": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Mix the dry ingredients in one bowl and the eggs, milk, butter and vanilla in another.",
+   "Combine until smooth.",
+   "Pour into a preheated waffle iron and cook 1 to 2 minutes."
+  ],
+  "originalTitle": "Гофрети"
+ },
+ {
+  "id": "boston-cream-doughnuts",
+  "title": "Boston cream doughnuts",
+  "collection": "mama",
+  "category": "dessert",
+  "servings": 12,
+  "timeMinutes": 180,
+  "ingredients": [
+   {
+    "ingredientId": "sugar",
+    "qty": 60,
+    "unit": "g",
+    "note": "pastry cream"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 350,
+    "unit": "ml",
+    "note": "pastry cream"
+   },
+   {
+    "ingredientId": "cornstarch",
+    "qty": 30,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 4,
+    "unit": "pcs",
+    "note": "yolks, pastry cream"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 30,
+    "unit": "g",
+    "note": "pastry cream"
+   },
+   {
+    "ingredientId": "vanilla",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 180,
+    "unit": "ml",
+    "note": "dough, 40 to 45 °C"
+   },
+   {
+    "ingredientId": "dry-yeast",
+    "qty": 7,
+    "unit": "g",
+    "note": "doc says 20 g; the source uses one 7 g packet"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 60,
+    "unit": "g",
+    "note": "dough"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 320,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 70,
+    "unit": "g",
+    "note": "dough"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 4,
+    "unit": "pcs",
+    "note": "yolks, dough"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 0.75,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "cardamom",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "nutmeg",
+    "qty": 0.25,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "dark-chocolate",
+    "qty": 85,
+    "unit": "g",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "water",
+    "qty": 30,
+    "unit": "ml",
+    "note": "glaze, 2 tbsp"
+   },
+   {
+    "ingredientId": "corn-syrup",
+    "qty": 30,
+    "unit": "g",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 70,
+    "unit": "g",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 15,
+    "unit": "g",
+    "note": "glaze"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 1000,
+    "unit": "ml",
+    "note": "for frying"
+   }
+  ],
+  "steps": [
+   "Pastry cream: heat milk and sugar, whisk into yolks and cornstarch, cook until thick, finish with butter and vanilla. Chill.",
+   "Dough: dissolve yeast in warm milk with sugar, mix with flour, yolks, salt and spices, knead in the butter. Rise until doubled.",
+   "Roll out, cut rounds, rise again, then fry until golden. Cool.",
+   "Fill with pastry cream and dip in the chocolate glaze."
+  ],
+  "source": "simpleandhomemade.com/boston-cream-doughnuts"
+ },
+ {
+  "id": "three-chocolate-cake",
+  "title": "Three-chocolate cake",
+  "collection": "mama",
+  "category": "dessert",
+  "servings": 12,
+  "timeMinutes": 60,
+  "ingredients": [
+   {
+    "ingredientId": "biscuits",
+    "qty": 200,
+    "unit": "g",
+    "note": "1 pack"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 60,
+    "unit": "g",
+    "note": "base"
+   },
+   {
+    "ingredientId": "dark-chocolate",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "milk-chocolate",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "white-chocolate",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "cream",
+    "qty": 750,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 750,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "sugar",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "junket-powder",
+    "qty": 3,
+    "unit": "pcs",
+    "note": "sachets"
+   }
+  ],
+  "steps": [
+   "Blitz the biscuits to crumbs, mix with the melted butter and press into the base of a springform tin.",
+   "Dark layer: heat 150 g dark chocolate with 250 ml cream and 50 g sugar. Dissolve 1 sachet of junket powder in 250 ml milk, add, and stir over medium heat until it thickens without boiling.",
+   "Pour over the base and let it set for a few minutes.",
+   "Repeat with the milk chocolate, then the white chocolate, letting each layer set so they don't mix.",
+   "Chill overnight. Decorate simply, with cinnamon or sweets."
+  ],
+  "originalTitle": "Торта три шоколада",
+  "notes": "The doc's method is a machine translation from Spanish (tarta de tres chocolates). Rewritten here so it can actually be followed."
+ },
+ {
+  "id": "pumpkin-waffles",
+  "title": "Pumpkin waffles with cream cheese",
+  "collection": "mama",
+  "category": "breakfast",
+  "servings": 4,
+  "timeMinutes": 40,
+  "ingredients": [
+   {
+    "ingredientId": "cream-cheese",
+    "qty": 225,
+    "unit": "g",
+    "note": "softened"
+   },
+   {
+    "ingredientId": "brown-sugar",
+    "qty": 50,
+    "unit": "g",
+    "note": "filling"
+   },
+   {
+    "ingredientId": "cinnamon",
+    "qty": 1,
+    "unit": "tsp",
+    "note": "filling"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "brown-sugar",
+    "qty": 25,
+    "unit": "g",
+    "note": "2 tbsp"
+   },
+   {
+    "ingredientId": "pumpkin-puree",
+    "qty": 120,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "milk",
+    "qty": 240,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 30,
+    "unit": "ml",
+    "note": "2 tbsp"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 110,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "baking-powder",
+    "qty": 1.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "baking-soda",
+    "qty": 0.25,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "cinnamon",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "ginger-ground",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Beat cream cheese, brown sugar and cinnamon until fluffy, about 3 minutes.",
+   "Preheat the waffle iron.",
+   "Whisk egg, sugar, pumpkin, milk and oil. Add the dry ingredients and whisk until smooth.",
+   "Cook the waffles and let them cool in a single layer.",
+   "Spread filling on half, top with the rest, cut into wedges."
+  ]
+ },
+ {
+  "id": "ginger-elixir",
+  "title": "Ginger breakfast elixir",
+  "collection": "mama",
+  "category": "drink",
+  "servings": 20,
+  "timeMinutes": 10,
+  "ingredients": [
+   {
+    "ingredientId": "ginger",
+    "qty": 120,
+    "unit": "g",
+    "note": "grated"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 2,
+    "unit": "pcs",
+    "note": "seeds removed"
+   },
+   {
+    "ingredientId": "honey",
+    "qty": 250,
+    "unit": "g"
+   }
+  ],
+  "steps": [
+   "Grate the ginger.",
+   "Blend the lemons with the ginger.",
+   "Stir in the honey. Keep in a jar in the fridge; take a spoonful in the morning."
+  ],
+  "originalTitle": "Еликсирът за закуска на Есил Дюран"
+ },
+ {
+  "id": "macedonian-banitsa",
+  "title": "Macedonian banitsa",
+  "collection": "mama",
+  "category": "baking",
+  "servings": 8,
+  "timeMinutes": 180,
+  "ingredients": [
+   {
+    "ingredientId": "water",
+    "qty": 200,
+    "unit": "ml",
+    "note": "lukewarm"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 1,
+    "unit": "pcs",
+    "note": "dough"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 15,
+    "unit": "ml",
+    "note": "1 tbsp"
+   },
+   {
+    "ingredientId": "vinegar",
+    "qty": 1,
+    "unit": "tbsp",
+    "note": "wine vinegar"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 400,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 200,
+    "unit": "g",
+    "note": "soft"
+   },
+   {
+    "ingredientId": "sirene",
+    "qty": 400,
+    "unit": "g",
+    "note": "crumbled"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 4,
+    "unit": "pcs",
+    "note": "filling, 3 to 4"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 1,
+    "unit": "pcs",
+    "note": "to brush"
+   }
+  ],
+  "steps": [
+   "Knead a smooth dough from water, egg, oil, vinegar, salt and flour.",
+   "Divide into 30 balls, oil them, cover and rest 5 minutes.",
+   "Roll each very thin. Stack in two piles of 15, buttering between sheets. Chill at least 2 hours.",
+   "Roll one stack to the size of a buttered round tin. Spread cheese mixed with eggs. Cover with the second stack and tuck the edges.",
+   "Brush with butter and egg. Bake at 180 °C for 40 to 45 minutes."
+  ],
+  "originalTitle": "Македонска баница"
+ },
+ {
+  "id": "salmon-poke-bowl",
+  "title": "Salmon poke bowl",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 2,
+  "timeMinutes": 30,
+  "ingredients": [
+   {
+    "ingredientId": "basmati",
+    "qty": 250,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "salmon",
+    "qty": 250,
+    "unit": "g",
+    "note": "sushi grade"
+   },
+   {
+    "ingredientId": "mango",
+    "qty": 100,
+    "unit": "g",
+    "note": "diced"
+   },
+   {
+    "ingredientId": "edamame",
+    "qty": 100,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "avocado",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "soy-sauce",
+    "qty": 30,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "sesame",
+    "qty": 10,
+    "unit": "g"
+   }
+  ],
+  "steps": [
+   "Rinse the rice until the water runs clear, then cook it.",
+   "Dice the salmon and toss with the soy sauce.",
+   "Build the bowls: rice, salmon, mango, edamame, avocado. Finish with sesame."
+  ],
+  "draft": true
+ },
+ {
+  "id": "salmon-broccoli",
+  "title": "Roast salmon with broccoli",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 2,
+  "timeMinutes": 25,
+  "ingredients": [
+   {
+    "ingredientId": "salmon",
+    "qty": 300,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "broccoli",
+    "qty": 400,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200 °C.",
+   "Toss broccoli with oil, garlic and salt on a tray; roast 10 minutes.",
+   "Add the salmon, squeeze over lemon, roast 12 minutes more."
+  ],
+  "draft": true
+ },
+ {
+  "id": "paella",
+  "title": "Seafood paella",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 4,
+  "timeMinutes": 50,
+  "ingredients": [
+   {
+    "ingredientId": "paella-rice",
+    "qty": 320,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "prawns",
+    "qty": 400,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "pepper",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 3,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "chopped-tomatoes",
+    "qty": 200,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "stock",
+    "qty": 1000,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "saffron",
+    "qty": 1,
+    "unit": "pinch"
+   },
+   {
+    "ingredientId": "paprika",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 1,
+    "unit": "pcs"
+   }
+  ],
+  "steps": [
+   "Fry onion, pepper and garlic in oil. Add tomato and paprika and cook down.",
+   "Stir in the rice, add hot stock and saffron. Do not stir again.",
+   "Simmer 15 minutes, add the prawns on top, cook 5 more. Rest 5 minutes and serve with lemon."
+  ],
+  "draft": true
+ },
+ {
+  "id": "beetroot-pasta",
+  "title": "Pasta with beetroot pesto",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 3,
+  "timeMinutes": 20,
+  "ingredients": [
+   {
+    "ingredientId": "pasta",
+    "qty": 300,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "beetroot",
+    "qty": 250,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "walnuts",
+    "qty": 50,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "parmesan",
+    "qty": 40,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "lemon",
+    "qty": 1,
+    "unit": "pcs"
+   }
+  ],
+  "steps": [
+   "Cook the pasta.",
+   "Blend beetroot, walnuts, parmesan, garlic, oil and lemon juice into a pesto.",
+   "Toss with the pasta and a splash of the cooking water."
+  ],
+  "draft": true
+ },
+ {
+  "id": "lentils-eggs",
+  "title": "Red lentils with eggs and spinach",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 3,
+  "timeMinutes": 30,
+  "ingredients": [
+   {
+    "ingredientId": "red-lentils",
+    "qty": 250,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "chopped-tomatoes",
+    "qty": 400,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "spinach",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "egg",
+    "qty": 3,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "cumin",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 2,
+    "unit": "tbsp"
+   }
+  ],
+  "steps": [
+   "Soften onion and garlic in oil with cumin.",
+   "Add lentils, tomatoes and 500 ml water; simmer 15 minutes.",
+   "Stir in spinach, make wells, crack in the eggs, cover and cook until set."
+  ],
+  "draft": true
+ },
+ {
+  "id": "chickpea-curry",
+  "title": "Chickpea curry",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 4,
+  "timeMinutes": 30,
+  "ingredients": [
+   {
+    "ingredientId": "chickpeas",
+    "qty": 500,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "coconut-milk",
+    "qty": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "curry-paste",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "ginger",
+    "qty": 20,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "spinach",
+    "qty": 100,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "basmati",
+    "qty": 250,
+    "unit": "g"
+   }
+  ],
+  "steps": [
+   "Fry onion, garlic and ginger. Add the curry paste and cook a minute.",
+   "Add chickpeas and coconut milk; simmer 15 minutes.",
+   "Stir in spinach. Serve with rice."
+  ],
+  "draft": true
+ },
+ {
+  "id": "shopska-salad",
+  "title": "Shopska salad",
+  "collection": "everyday",
+  "category": "salad-soup",
+  "servings": 2,
+  "timeMinutes": 15,
+  "ingredients": [
+   {
+    "ingredientId": "tomato",
+    "qty": 3,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "cucumber",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "pepper",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "sirene",
+    "qty": 150,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "parsley",
+    "qty": 10,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 30,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "vinegar",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 0.5,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Chop tomatoes, cucumber, pepper and onion.",
+   "Dress with oil, vinegar and salt.",
+   "Grate sirene generously over the top and finish with parsley."
+  ],
+  "draft": true
+ },
+ {
+  "id": "tarator",
+  "title": "Tarator (cold yoghurt soup)",
+  "collection": "everyday",
+  "category": "salad-soup",
+  "servings": 4,
+  "timeMinutes": 15,
+  "ingredients": [
+   {
+    "ingredientId": "yoghurt",
+    "qty": 800,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "cucumber",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "dill",
+    "qty": 15,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "walnuts",
+    "qty": 40,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "sunflower-oil",
+    "qty": 30,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "water",
+    "qty": 300,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Whisk yoghurt with cold water.",
+   "Add grated cucumber, crushed garlic, dill and salt.",
+   "Serve cold with oil and walnuts on top."
+  ],
+  "draft": true
+ },
+ {
+  "id": "chicken-traybake",
+  "title": "Chicken and potato traybake",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 4,
+  "timeMinutes": 60,
+  "ingredients": [
+   {
+    "ingredientId": "chicken-thighs",
+    "qty": 800,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "potato",
+    "qty": 800,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 4,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "rosemary",
+    "qty": 5,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "paprika",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200 °C.",
+   "Toss potatoes, onion wedges and garlic with oil, paprika, salt and rosemary.",
+   "Lay the chicken on top and roast for 45 to 50 minutes."
+  ],
+  "draft": true
+ },
+ {
+  "id": "tortilla",
+  "title": "Spanish tortilla",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 4,
+  "timeMinutes": 40,
+  "ingredients": [
+   {
+    "ingredientId": "egg",
+    "qty": 6,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "potato",
+    "qty": 600,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "olive-oil",
+    "qty": 6,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Slowly fry thinly sliced potato and onion in the oil until soft, about 20 minutes.",
+   "Drain, mix with the beaten eggs and salt, rest 10 minutes.",
+   "Cook in a pan on low heat, flip with a plate, and cook the other side."
+  ],
+  "draft": true
+ },
+ {
+  "id": "mushroom-risotto",
+  "title": "Mushroom risotto",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 3,
+  "timeMinutes": 35,
+  "ingredients": [
+   {
+    "ingredientId": "arborio",
+    "qty": 250,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "mushrooms",
+    "qty": 300,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "onion",
+    "qty": 1,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "white-wine",
+    "qty": 100,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "stock",
+    "qty": 900,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "parmesan",
+    "qty": 50,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "butter",
+    "qty": 30,
+    "unit": "g"
+   }
+  ],
+  "steps": [
+   "Fry the mushrooms until golden and set aside.",
+   "Soften onion and garlic, toast the rice, add the wine.",
+   "Add hot stock a ladle at a time, stirring, for 18 minutes.",
+   "Stir in mushrooms, butter and parmesan."
+  ],
+  "draft": true
+ }
+]

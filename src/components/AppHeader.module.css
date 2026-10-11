@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: var(--size-tap) 1fr var(--size-tap);
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-header-bg);
+  backdrop-filter: blur(12px);
+}
+
+.title {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  text-align: center;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}

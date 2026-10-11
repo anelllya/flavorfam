@@ -1,0 +1,12 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100dvh;
+  max-inline-size: var(--size-content-max);
+  margin: 0 auto;
+  background: var(--color-bg);
+}
+
+.content {
+  flex: 1;
+}

@@ -1,0 +1,524 @@
+[
+ {
+  "id": "flour",
+  "name": "Plain flour",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "sugar",
+  "name": "Sugar",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "powdered-sugar",
+  "name": "Icing sugar",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "brown-sugar",
+  "name": "Brown sugar",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "baking-soda",
+  "name": "Baking soda",
+  "unit": "tsp",
+  "aisle": "baking"
+ },
+ {
+  "id": "baking-powder",
+  "name": "Baking powder",
+  "unit": "tsp",
+  "aisle": "baking"
+ },
+ {
+  "id": "cocoa",
+  "name": "Cocoa powder",
+  "unit": "tbsp",
+  "aisle": "baking"
+ },
+ {
+  "id": "vanilla",
+  "name": "Vanilla extract",
+  "unit": "tsp",
+  "aisle": "baking"
+ },
+ {
+  "id": "fresh-yeast",
+  "name": "Fresh yeast",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "dry-yeast",
+  "name": "Dry yeast",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "cornstarch",
+  "name": "Cornstarch",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "ladyfingers",
+  "name": "Ladyfingers",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "croquant",
+  "name": "Croquant (nut brittle)",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "dark-chocolate",
+  "name": "Dark chocolate",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "milk-chocolate",
+  "name": "Milk chocolate",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "white-chocolate",
+  "name": "White chocolate",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "junket-powder",
+  "name": "Cuajada (junket) sachet",
+  "unit": "pcs",
+  "aisle": "baking",
+  "gramsPerUnit": 12,
+  "namePlural": "Cuajada (junket) sachets"
+ },
+ {
+  "id": "biscuits",
+  "name": "Plain biscuits",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "corn-syrup",
+  "name": "Light corn syrup",
+  "unit": "g",
+  "aisle": "baking"
+ },
+ {
+  "id": "yoghurt",
+  "name": "Yoghurt",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "milk",
+  "name": "Milk",
+  "unit": "ml",
+  "aisle": "dairy"
+ },
+ {
+  "id": "butter",
+  "name": "Butter",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "cream",
+  "name": "Whipping cream",
+  "unit": "ml",
+  "aisle": "dairy"
+ },
+ {
+  "id": "cream-cheese",
+  "name": "Cream cheese",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "sirene",
+  "name": "Sirene (white brine cheese)",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "egg",
+  "name": "Egg",
+  "unit": "pcs",
+  "aisle": "dairy",
+  "gramsPerUnit": 55,
+  "namePlural": "Eggs"
+ },
+ {
+  "id": "parmesan",
+  "name": "Parmesan",
+  "unit": "g",
+  "aisle": "dairy"
+ },
+ {
+  "id": "lard",
+  "name": "Lard",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "sunflower-oil",
+  "name": "Sunflower oil",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "olive-oil",
+  "name": "Olive oil",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "vinegar",
+  "name": "Vinegar",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "salt",
+  "name": "Salt",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "black-pepper",
+  "name": "Black pepper",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "honey",
+  "name": "Honey",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "rakia",
+  "name": "Rakia (or brandy)",
+  "unit": "tbsp",
+  "aisle": "drinks"
+ },
+ {
+  "id": "rum",
+  "name": "Dark rum",
+  "unit": "ml",
+  "aisle": "drinks"
+ },
+ {
+  "id": "white-wine",
+  "name": "Dry white wine",
+  "unit": "ml",
+  "aisle": "drinks"
+ },
+ {
+  "id": "walnuts",
+  "name": "Walnuts",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "dried-fruit",
+  "name": "Dried fruit",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "raisins",
+  "name": "Raisins",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "sesame",
+  "name": "Sesame seeds",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "cinnamon",
+  "name": "Ground cinnamon",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "ginger-ground",
+  "name": "Ground ginger",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "cardamom",
+  "name": "Ground cardamom",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "nutmeg",
+  "name": "Ground nutmeg",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "paprika",
+  "name": "Sweet paprika",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "saffron",
+  "name": "Saffron",
+  "unit": "pinch",
+  "aisle": "spices"
+ },
+ {
+  "id": "curry-paste",
+  "name": "Curry paste",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "cumin",
+  "name": "Ground cumin",
+  "unit": "tsp",
+  "aisle": "spices"
+ },
+ {
+  "id": "pumpkin-puree",
+  "name": "Pumpkin purée",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "water",
+  "name": "Water",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "basmati",
+  "name": "Basmati rice",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "paella-rice",
+  "name": "Paella rice (bomba)",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "arborio",
+  "name": "Risotto rice (arborio)",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "pasta",
+  "name": "Pasta",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "red-lentils",
+  "name": "Red lentils",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "chickpeas",
+  "name": "Chickpeas (cooked)",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "coconut-milk",
+  "name": "Coconut milk",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "chopped-tomatoes",
+  "name": "Chopped tomatoes (tin)",
+  "unit": "g",
+  "aisle": "pantry"
+ },
+ {
+  "id": "stock",
+  "name": "Vegetable stock",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "soy-sauce",
+  "name": "Soy sauce",
+  "unit": "ml",
+  "aisle": "pantry"
+ },
+ {
+  "id": "tahini",
+  "name": "Tahini",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "salmon",
+  "name": "Salmon fillet",
+  "unit": "g",
+  "aisle": "fish"
+ },
+ {
+  "id": "prawns",
+  "name": "Prawns",
+  "unit": "g",
+  "aisle": "fish"
+ },
+ {
+  "id": "chicken-thighs",
+  "name": "Chicken thighs",
+  "unit": "g",
+  "aisle": "meat"
+ },
+ {
+  "id": "lemon",
+  "name": "Lemon",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 100,
+  "namePlural": "Lemons"
+ },
+ {
+  "id": "ginger",
+  "name": "Fresh ginger",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "onion",
+  "name": "Onion",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 150,
+  "namePlural": "Onions"
+ },
+ {
+  "id": "garlic",
+  "name": "Garlic clove",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 5,
+  "namePlural": "Garlic cloves"
+ },
+ {
+  "id": "potato",
+  "name": "Potatoes",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "tomato",
+  "name": "Tomato",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 150,
+  "namePlural": "Tomatoes"
+ },
+ {
+  "id": "cucumber",
+  "name": "Cucumber",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 300,
+  "namePlural": "Cucumbers"
+ },
+ {
+  "id": "pepper",
+  "name": "Pepper",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 150,
+  "namePlural": "Peppers"
+ },
+ {
+  "id": "broccoli",
+  "name": "Broccoli",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "mango",
+  "name": "Mango",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "edamame",
+  "name": "Edamame",
+  "unit": "g",
+  "aisle": "frozen"
+ },
+ {
+  "id": "beetroot",
+  "name": "Beetroot (cooked)",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "spinach",
+  "name": "Spinach",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "mushrooms",
+  "name": "Mushrooms",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "dill",
+  "name": "Fresh dill",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "parsley",
+  "name": "Fresh parsley",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "avocado",
+  "name": "Avocado",
+  "unit": "pcs",
+  "aisle": "produce",
+  "gramsPerUnit": 170,
+  "namePlural": "Avocados"
+ },
+ {
+  "id": "green-beans",
+  "name": "Green beans",
+  "unit": "g",
+  "aisle": "produce"
+ },
+ {
+  "id": "rosemary",
+  "name": "Fresh rosemary",
+  "unit": "g",
+  "aisle": "produce"
+ }
+]

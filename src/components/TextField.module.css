@@ -1,0 +1,62 @@
+/* Shared by TextField and NumberField. Matches Select so all form controls read as one family. */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-inline-size: 0;
+}
+
+.label {
+  padding-inline-start: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+.input {
+  inline-size: 100%;
+  min-block-size: var(--size-tap);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font: inherit;
+  font-size: var(--text-md);
+}
+
+textarea.input {
+  resize: vertical;
+  line-height: var(--leading-normal);
+}
+
+.input:focus-visible {
+  border-color: var(--color-focus);
+  outline: 1px solid var(--color-focus);
+}
+
+.input[aria-invalid='true'] {
+  border-color: var(--color-danger);
+
+  /* A second line inside the border, so the focus ring outside stays its own thing. */
+  box-shadow: inset 0 0 0 var(--border-control) var(--color-danger);
+}
+
+.error,
+.warning {
+  padding-inline-start: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+.error {
+  color: var(--color-danger);
+  font-weight: var(--weight-semibold);
+}
+
+.warning {
+  padding-block: var(--space-2);
+  padding-inline-end: var(--space-3);
+  border-inline-start: var(--space-1) solid var(--color-warning);
+  border-radius: var(--radius-sm);
+  background: var(--color-warning-subtle);
+  color: var(--color-warning);
+  font-weight: var(--weight-semibold);
+}

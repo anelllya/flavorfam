@@ -1,0 +1,77 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 104 / 124;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  color: var(--color-on-featured);
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.tile:hover .art {
+  outline: 2px solid var(--color-primary);
+}
+
+.main,
+.salad-soup,
+.green {
+  background: var(--color-featured-green);
+}
+
+.breakfast,
+.drink,
+.orange {
+  background: var(--color-featured-orange);
+}
+
+.baking,
+.dessert,
+.brown {
+  background: var(--color-featured-brown);
+}
+
+.badge {
+  position: absolute;
+  inset-block-start: var(--space-2);
+  inset-inline-start: var(--space-2);
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+}
+
+.title {
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-tight);
+  text-align: center;
+}
+
+.caption {
+  color: var(--color-text-muted);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  text-align: center;
+}
