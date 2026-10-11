@@ -24,7 +24,7 @@ npm run eval
 | `evals/` | Custom stylelint rule, the run log, briefs for future runs |
 | `tests/` | axe + visual regression on every route in both themes, plus behaviour tests |
 | `content/` | The `/thinking` page (`/status` renders `evals/runs.md`) |
-| `src/data/` | 22 recipes (13 of them my mum's), with photos in `public/recipes/`, and a canonical ingredient list |
+| `src/data/` | 23 recipes (13 of them my mum's), with photos in `public/recipes/`, and a canonical ingredient list |
 | `docs/` | Token map and component inventory (what still needs to go back into Figma), and how the system was built |
 | `.github/workflows/gate.yml` | Runs the gate on every push and deploys the site to GitHub Pages when it passes (visual diffs run locally) |
 

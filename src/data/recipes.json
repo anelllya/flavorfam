@@ -1684,5 +1684,131 @@
   "notes": "Use natural cocoa in the cake, not Dutch-process. Split: cocoa 64 g cake / 64 g frosting; vanilla 2 tsp / 1 tsp; salt 1 tsp / 1/4 tsp. Coffee can be hot water; espresso powder and chocolate chips are optional. No buttermilk: 2 tsp vinegar topped up with milk to 240 ml, rest 5 min.",
   "source": "https://sallysbakingaddiction.com/triple-chocolate-layer-cake/",
   "image": "triple-chocolate-layer-cake.webp"
+ },
+ {
+  "id": "creamy-vegan-mushroom-stroganoff",
+  "title": "Creamy Vegan Mushroom Stroganoff",
+  "collection": "everyday",
+  "category": "main",
+  "servings": 6,
+  "timeMinutes": 70,
+  "ingredients": [
+   {
+    "ingredientId": "olive-oil",
+    "qty": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "leek",
+    "qty": 2,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "mushrooms",
+    "qty": 560,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "garlic",
+    "qty": 6,
+    "unit": "pcs"
+   },
+   {
+    "ingredientId": "fresh-thyme",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "salt",
+    "qty": 0.75,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "stock",
+    "qty": 360,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "soy-sauce",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "vegan-worcestershire-sauce",
+    "qty": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "flour",
+    "qty": 30,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "white-wine",
+    "qty": 120,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "coconut-milk",
+    "qty": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredientId": "tahini",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "nutritional-yeast",
+    "qty": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredientId": "paprika",
+    "qty": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "dijon-mustard",
+    "qty": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredientId": "pasta",
+    "qty": 340,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "dill",
+    "qty": 10,
+    "unit": "g"
+   },
+   {
+    "ingredientId": "black-pepper",
+    "qty": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Wipe the mushrooms clean, then slice or tear them.",
+   "Halve the leeks lengthwise, slice, wash in cold water and pat dry.",
+   "Heat half the oil in a large deep pan over medium-high heat.",
+   "Cook half the leeks and mushrooms 8 to 10 minutes until browned.",
+   "Lower to medium, add half the garlic, half the thyme and a pinch of salt, cook 2 to 4 minutes.",
+   "Set this batch aside on a plate.",
+   "Repeat with the rest of the oil, leeks, mushrooms, garlic, thyme and a pinch of salt, leaving it in the pan.",
+   "Whisk stock, soy sauce, Worcestershire and flour until smooth.",
+   "Add the wine to the pan, scrape the bottom and simmer 3 minutes.",
+   "Whisk in the stock mixture and bring to a simmer.",
+   "Add coconut milk, tahini, nutritional yeast, paprika and the remaining salt.",
+   "Simmer on medium-low 10 minutes until thick.",
+   "Cook the pasta in salted water until al dente and drain.",
+   "Stir the mustard into the sauce.",
+   "Add pasta and most of the dill, toss to coat.",
+   "Serve topped with the reserved mushrooms, remaining dill and pepper."
+  ],
+  "notes": "Use a mix of mushrooms (cremini plus shiitake, oyster or maitake). Don’t wash or salt mushrooms early, or they steam. Worcestershire optional. No wine: deglaze with 60 ml stock.",
+  "source": "https://rainbowplantlife.com/creamy-vegan-mushroom-stroganoff/",
+  "image": "creamy-vegan-mushroom-stroganoff.webp"
  }
 ]

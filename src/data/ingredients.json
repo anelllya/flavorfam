@@ -664,5 +664,35 @@
   "name": "Red onion",
   "unit": "pcs",
   "aisle": "produce"
+ },
+ {
+  "id": "leek",
+  "name": "Leek",
+  "unit": "pcs",
+  "aisle": "produce"
+ },
+ {
+  "id": "fresh-thyme",
+  "name": "Fresh thyme",
+  "unit": "tbsp",
+  "aisle": "produce"
+ },
+ {
+  "id": "vegan-worcestershire-sauce",
+  "name": "Vegan Worcestershire sauce",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "nutritional-yeast",
+  "name": "Nutritional yeast",
+  "unit": "tbsp",
+  "aisle": "pantry"
+ },
+ {
+  "id": "dijon-mustard",
+  "name": "Dijon mustard",
+  "unit": "tsp",
+  "aisle": "pantry"
  }
 ]
